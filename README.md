@@ -2,19 +2,31 @@
 
 __###Chapter 1 - SQL Commands__
 
-- Lesson 1.1 - The ham is gone
+- Lesson 1.1 - Select From
+	
+	+ Selecting data from specific rows and tables
 
-- Lesson 1.2 Skywalker
+- Lesson 1.2 Count
 
-- Lesson 1.3 - The hamburger trial
+	+ Counting the number of specific words in a table
+
+- Lesson 1.3 - IN/Between
+
+	+ Removing stop words(words that provide no value i.e. I or a)
 
 __###Chapter 2 - Cleaning Text with Regular Expression__
 
-- Lesson 1.1 - 
+- Lesson 1.1 - Lowercase words
+	
+	+ This process is called unnesting which is making every word in the analysis lowercase
 
-- Lesson 1.2 Skywalker
+- Lesson 1.2 Remove @ and &
 
-- Lesson 1.3 - The hamburger trial
+	+ Remove common symbols shown in twitter data
+
+- Lesson 1.3 - Using quantifiers 
+
+	+ Executing regex more than once
 
 __###Chapter 3 - NLP Concepts__
 
