@@ -2,56 +2,70 @@
 
 __### Chapter 1 - SQL Commands__
 
-- Lesson 1.1 - Select From
+- Lesson 1.1 - Count
 	
-	+ Selecting data from specific rows and tables
+	+ Using the Count SQL command to number of rows in a table
 
 - Lesson 1.2 Order By
 
-	+ Rearranging data in ascending and descending order
+	+ Rearranging the row number by ascending and descending order
 
-- Lesson 1.3 - IN/Between
+- Lesson 1.3 - IN
 
-	+ Removing stop words(words that provide no value i.e. I or a)
+	+ Removing stop words(words that provide no value i.e. I or a) with IN query command
 
-__### Chapter 2 - Cleaning Text with Regular Expression__
+__### Chapter 2 - Regular Expression in SQL Server__
 
-- Lesson 1.1 - Lowercase words
+- Lesson 1.1 - Is Matching
 	
-	+ This process is called unnesting which is making every word in the analysis lowercase
+	+ Selecting rows that contain certain letters in the table
 
-- Lesson 1.2 Remove @ and &
+- Lesson 1.2 Substitute
 
-	+ Remove common symbols from words
+	+ Replace letters with regex
 
-- Lesson 1.3 - Using quantifiers 
+- Lesson 1.3 - Whitespace
 
-	+ Executing regex more than once
+	+ Adding space to words before they go through tokenization later in the next chapter 
+
+- Lesson 1.4 - Using quantifiers 
+
+ 	+ Executing regex more than once in SQL Server
 
 __### Chapter 3 - NLP Concepts__
 
-- Lesson 1.1  top_n words
+- Lesson 1.1  Tokenization
 
-	+ Analyzing to words in the analysis
+	+ Spacing out each word with a space and set them to lowercase 
 
-- Lesson 1.2 tdf-idf
+- Lesson 1.2 tdf
 
-	+ Calculating the frequency of certain words
+	+ Calculating the term frequency in SQL Server and use Order By to
+	look at words with the highest term frequency in descending order 
 
-- Lesson 1.3 - bigrams
+ Lesson 1.3 idf
 
-	+ Looking at words that come after no
+	+ Calculating the inverse document in SQL Server
+
+- Lesson 1.4 - tdf-idf weighting
+
+	+ Determining the td-idf of top 2 most and least common words in the table
 
 __### Chapter 4 - Capstone Project__
 
-- Lesson 1.1 Cleaning Twitter data
+- Lesson 1.1 Tokenization
 
-	+ Using regex to clean twitter data
+	+ Set all words to lowercase and separate any compounds words
 
 - Lesson 1.2 Looking at the most common words in x amount of tweets
 
-	+ Need to add something here
+	+ Using COUNT and Order By to look at the most common words in the data set
 
-- Lesson 1.3 Zipf's Law
+- Lesson 1.3 Cleaning Text Data
 
-	+ Using Zipf's law to figure out which words have a lot of weight in certain tweets
+	+ Remove @ and & with regex in the table
+
+- Lesson 1.4 Bigrams
+
+	+ Using SQL queries to dtermine the top 3 bigrams in the table
+
