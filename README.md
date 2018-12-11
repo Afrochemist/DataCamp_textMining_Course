@@ -4,68 +4,69 @@ __### Chapter 1 - SQL Commands__
 
 - Lesson 1.1 - Count
 	
-	+ Using the Count SQL command to number of rows in a table
-
+	+ The learner will use the COUNT command to retrieve the number of rows in a table
+	
 - Lesson 1.2 Order By
-
-	+ Rearranging the row number by ascending and descending order
+	
+	+ The learner will use ORDER BY to organize table by ascending and descending order of row number
 
 - Lesson 1.3 - IN
 
-	+ Removing stop words(words that provide no value i.e. I or a) with IN query command
+	+ The learner will learn how to use the IN SQL Command
 
 __### Chapter 2 - Regular Expression in SQL Server__
 
 - Lesson 1.1 - Is Matching
 	
 	+ Selecting rows that contain certain letters in the table
+	+ The learner will 
 
 - Lesson 1.2 Substitute
 
-	+ Replace letters with regex
+	+ The learner will replace letters using regex
 
 - Lesson 1.3 - Whitespace
 
-	+ Adding space to words before they go through tokenization later in the next chapter 
+	+ The learner will learn how to add a space to words that are attached(need revison)
 
 - Lesson 1.4 - Using quantifiers 
 
- 	+ Executing regex more than once in SQL Server
+ 	+ The learner will execute regex more than once in a table
+ 	i.e.(Adding an r to every you in each row in a table)
 
-__### Chapter 3 - NLP Concepts__
+__### Chapter 3 - Text Mining Concepts__
 
 - Lesson 1.1  Tokenization
 
-	+ Spacing out each word with a space and set them to lowercase 
+	+ The learner will set all words in the table to lowercase and a space in between each word
 
 - Lesson 1.2 tdf
-
-	+ Calculating the term frequency in SQL Server and use Order By to
-	look at words with the highest term frequency in descending order 
+	
+	+ The learner will calculate the term document frequency in a table by using ORDER BY to look at words with the highest term frequency in descending order 
 
  Lesson 1.3 idf
 
-	+ Calculating the inverse document in SQL Server
+	+ The learner will calculate the inverse document frequency in a table
 
 - Lesson 1.4 - tdf-idf weighting
 
-	+ Determining the td-idf of top 2 most and least common words in the table
+	+ The learner will combine concepts from the two previous lessions and calculate the tdf-idf 
 
 __### Chapter 4 - Capstone Project__
 
 - Lesson 1.1 Tokenization
 
-	+ Set all words to lowercase and separate any compounds words
+	+ The learner will set all words to lowercase and separate any compounds words in the dataset
 
 - Lesson 1.2 Looking at the most common words in x amount of tweets
 
-	+ Using COUNT and Order By to look at the most common words in the data set
+	+ The learner will use COUNT and Order By to look at the most common words in the 
 
 - Lesson 1.3 Cleaning Text Data
 
-	+ Remove @ and & with regex in the table
+	+ The learner will remove any symbols or punctuation marks in the dataset
 
 - Lesson 1.4 Bigrams
 
-	+ Using SQL queries to dtermine the top 3 bigrams in the table
+	+ The learner will understand the concept of n grams and query the top three bigrams in the dataset
 
