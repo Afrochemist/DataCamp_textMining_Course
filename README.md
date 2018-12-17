@@ -1,6 +1,6 @@
 # DataCamp_textMining_Course
 
-__###Chapter 1 - Text Mining Queries __
+__Chapter 1 - Text Mining Queries __
 
 - Lesson 1.1 - LIKE
 	
@@ -15,7 +15,7 @@ __###Chapter 1 - Text Mining Queries __
 	+ The learner will use the FREETEXT command to search a phrase in a particular column
 
 
-__###Chapter 2 - String Manipulation__
+__Chapter 2 - String Manipulation__
 
 - Lesson 1.1 - String Split
 	
@@ -34,7 +34,7 @@ __###Chapter 2 - String Manipulation__
 	+ The learner will use TRIM to eliminate spaces from a string
 
 
-__###Chapter 3 - Regular Expressions in SQL Server__
+__Chapter 3 - Regular Expressions in SQL Server__
 
 - Lesson 1.1 - Is Matching
 	
@@ -53,7 +53,7 @@ __###Chapter 3 - Regular Expressions in SQL Server__
  	+ The learner will use REPLICATE to repeat a string for a certain number of times
 
 
-__###Chapter 4 - Natural Language Processing Concepts__
+__Chapter 4 - Natural Language Processing Concepts__
 
 - Lesson 1.1  Tokenization
 
