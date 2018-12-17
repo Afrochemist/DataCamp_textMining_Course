@@ -1,6 +1,6 @@
 # DataCamp_textMining_Course
 
-__### Chapter 1 - Text Mining Queries __
+__###Chapter 1 - Text Mining Queries __
 
 - Lesson 1.1 - LIKE
 	
@@ -15,7 +15,7 @@ __### Chapter 1 - Text Mining Queries __
 	+ The learner will use the FREETEXT command to search a phrase in a particular column
 
 
-__### Chapter 2 - String Manipulation__
+__###Chapter 2 - String Manipulation__
 
 - Lesson 1.1 - String Split
 	
@@ -34,7 +34,7 @@ __### Chapter 2 - String Manipulation__
 	+ The learner will use TRIM to eliminate spaces from a string
 
 
-__### Chapter 3 - Regular Expressions in SQL Server__
+__###Chapter 3 - Regular Expressions in SQL Server__
 
 - Lesson 1.1 - Is Matching
 	
@@ -53,7 +53,7 @@ __### Chapter 3 - Regular Expressions in SQL Server__
  	+ The learner will use REPLICATE to repeat a string for a certain number of times
 
 
-__### Chapter 4 - Natural Language Processing Concepts__
+__###Chapter 4 - Natural Language Processing Concepts__
 
 - Lesson 1.1  Tokenization
 
@@ -63,7 +63,7 @@ __### Chapter 4 - Natural Language Processing Concepts__
 	
 	+ The learner will calculate the term document frequency in a table by using ORDER BY to look at words with the highest term frequency in descending order 
 
- Lesson 1.3 idf
+ - Lesson 1.3 idf
 
 	+ The learner will calculate the inverse document frequency in a table
 
