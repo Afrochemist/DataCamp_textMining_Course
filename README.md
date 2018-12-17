@@ -1,40 +1,59 @@
 # DataCamp_textMining_Course
 
-__### Chapter 1 - SQL Commands__
+__### Chapter 1 - Text Mining Queries __
 
-- Lesson 1.1 - Count
+- Lesson 1.1 - LIKE
 	
-	+ The learner will use the COUNT command to retrieve the number of rows in a table
+	+ The learner will use the LIKE command to select words
 	
-- Lesson 1.2 Order By
+- Lesson 1.2 CONTAINS
 	
-	+ The learner will use ORDER BY to organize table by ascending and descending order of row number
+	+ The learner will use the CONTAINS command to select text with certain letters 
 
-- Lesson 1.3 - IN
+- Lesson 1.3 - FREETEXT
 
-	+ The learner will learn how to use the IN SQL Command
+	+ The learner will use the FREETEXT command to search a phrase in a particular column
 
-__### Chapter 2 - Regular Expression in SQL Server__
+
+__### Chapter 2 - String Manipulation__
+
+- Lesson 1.1 - String Split
+	
+	+ The learner will use the STRING_SPLIT command to separate text
+
+- Lesson 1.2 REVERSE
+
+	+ The learner will use the REVERSE command to reverse the order of a string
+
+- Lesson 1.3 - CONCAT
+
+	+ The learner will use the CONCAT command to combine words that are supposed to be compound words
+
+- Lesson 1.4 - 	TRIM
+
+	+ The learner will use TRIM to eliminate spaces from a string
+
+
+__### Chapter 3 - Regular Expressions in SQL Server__
 
 - Lesson 1.1 - Is Matching
 	
-	+ Selecting rows that contain certain letters in the table
-	+ The learner will 
+	+ The learner will use DIFFERENCE to find out how different two strings are
 
-- Lesson 1.2 Substitute
+- Lesson 1.2 Substitution
 
-	+ The learner will replace letters using regex
+	+ The learner will replace letters/words using the REPLACE command
 
 - Lesson 1.3 - Whitespace
 
-	+ The learner will learn how to add a space to words that are attached(need revison)
+	+ The learner will learn how to add a space to words that are attached using the SPACE command
 
 - Lesson 1.4 - Using quantifiers 
 
- 	+ The learner will execute regex more than once in a table
- 	i.e.(Adding an r to every you in each row in a table)
+ 	+ The learner will use REPLICATE to repeat a string for a certain number of times
 
-__### Chapter 3 - Text Mining Concepts__
+
+__### Chapter 4 - Natural Language Processing Concepts__
 
 - Lesson 1.1  Tokenization
 
@@ -48,25 +67,8 @@ __### Chapter 3 - Text Mining Concepts__
 
 	+ The learner will calculate the inverse document frequency in a table
 
-- Lesson 1.4 - tdf-idf weighting
+- Lesson 1.4 - Tdf-idf Weighting
 
 	+ The learner will combine concepts from the two previous lessions and calculate the tdf-idf 
 
-__### Chapter 4 - Capstone Project__
-
-- Lesson 1.1 Tokenization
-
-	+ The learner will set all words to lowercase and separate any compounds words in the dataset
-
-- Lesson 1.2 Looking at the most common words in x amount of tweets
-
-	+ The learner will use COUNT and Order By to look at the most common words in the 
-
-- Lesson 1.3 Cleaning Text Data
-
-	+ The learner will remove any symbols or punctuation marks in the dataset
-
-- Lesson 1.4 Bigrams
-
-	+ The learner will understand the concept of n grams and query the top three bigrams in the dataset
 
